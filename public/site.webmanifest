@@ -1,0 +1,17 @@
+{
+  "name": "NPV//FORGE — NPV to V2Ray Converter",
+  "short_name": "NPV//FORGE",
+  "description": "Client-side offline decryptor and converter from NPV Tunnel configs to V2Ray, Xray, Sing-box and Clash.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0e14",
+  "theme_color": "#0c0e14",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

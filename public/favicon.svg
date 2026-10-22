@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Rounded tile -->
+  <rect width="64" height="64" rx="18" fill="#0c0e14" />
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#141724" stroke="#23293a" stroke-width="2" />
+
+  <!-- Shield contour -->
+  <path
+    d="M32 9 L51 17 V33 C51 44.5 42.5 53 32 56 C21.5 53 13 44.5 13 33 V17 Z"
+    stroke="#2dd4bf"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+    stroke-opacity="0.4"
+  />
+
+  <!-- The N mark & exit ray -->
+  <path
+    d="M23 42 V22.5 L36 38.5 V21.5"
+    stroke="#2dd4bf"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M39 42 H45"
+    stroke="#2dd4bf"
+    stroke-width="4.2"
+    stroke-linecap="round"
+  />
+
+  <!-- Subtle cyan accent pip -->
+  <circle cx="36" cy="38.5" r="2.2" fill="#f3f5f9" />
+</svg>

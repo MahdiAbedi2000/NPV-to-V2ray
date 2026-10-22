@@ -1,0 +1,6 @@
+{
+  "name": "NPV//FORGE — NPV Tunnel to V2Ray Universal Converter",
+  "description": "سامانه تخصصی و کلاینت‌ساید رمزگشایی، تبدیل و بازنویسی کانتینرهای NPV Tunnel (NapsternetV .npvt / .npvs / NPVT1 / NPVO1 / NetMod) به لینک‌های V2Ray، Xray JSON، Sing-box و Clash Meta به صورت ۱۰۰٪ آفلاین.",
+  "version": "2.5.0",
+  "license": "MIT"
+}

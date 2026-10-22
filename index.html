@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fa" dir="rtl" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>NPV//FORGE — سامانه تخصصی رمزگشایی و تبدیل کانفیگ‌های NPV Tunnel به V2Ray</title>
+    <meta name="description" content="سامانه آفلاین و امن جهت رمزگشایی، تحلیل و تبدیل دوطرفه کانفیگ‌های ارتباطی NPV Tunnel (NapsternetV .npvt / .npvs / NPVT1 / NPVO1 / NetMod) به ساختارهای استاندارد V2Ray، Xray JSON، Sing-box و Clash Meta بدون واسطه سرور." />
+    <meta name="theme-color" content="#0c0e14" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta property="og:title" content="NPV//FORGE — سامانه تخصصی تبدیل کانفیگ NPV به V2Ray" />
+    <meta property="og:description" content="رمزگشایی کانتینرهای نسل ۴ و ۵، خروجی‌های V2Ray/Xray/Sing-box/Clash و مدیریت تجمیعی سرورها به صورت ۱۰۰٪ آفلاین." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <style>
+      /* Critical shell: shown before the JS bundle parses. */
+      html, body { margin: 0; background: #0c0e14; color: #f3f5f9; }
+      body { font-family: "Vazirmatn Variable", Vazirmatn, system-ui, sans-serif; }
+      html.light, html.light body { background: #fbfbfa; color: #171a1f; }
+      #root { min-height: 100vh; }
+      .boot-fallback {
+        position: fixed; inset: 0; display: grid; place-items: center;
+        font-family: system-ui, sans-serif; font-size: 13px; color: #6c768a;
+        transition: opacity .3s;
+      }
+      .boot-fallback.is-hidden { opacity: 0; pointer-events: none; }
+      .boot-fallback b { color: #2dd4bf; font-weight: 700; margin-inline-end: 6px; }
+    </style>
+    <script>
+      /* Apply saved theme before first paint so there is no flash. */
+      (function () {
+        try {
+          var t = localStorage.getItem('npvt_theme');
+          var dark = t ? t === 'dark' : true;
+          document.documentElement.classList.toggle('dark', dark);
+          document.documentElement.classList.toggle('light', !dark);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot-fallback" id="boot-fallback">
+        <span><b>NPV//FORGE</b> · booting decrypt engine<i></i></span>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
